@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#question-container{
+    margin-top: 80px;
+}
+
+#question-box{
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.optiondiv{
+    border: 3px solid #eee;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.optiondiv:hover{
+    border-color: #ccc;
+}
+#options{
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+#btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#btns>div:nth-child(1){
+    display: flex;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+#restart {
+    background-color: rgb(226, 44, 44);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+#restart:hover{
+    background-color: rgb(237, 96, 96);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#timer {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+.timer{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 20px ;
+    border-radius: 5px;
+    color: whitesmoke;
+    
+}
+.timer>p{
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+}
+@media screen and (max-width: 1000px) {
+    .optiondiv{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .optiondiv{
+        width: 95%;
+    }
+}
