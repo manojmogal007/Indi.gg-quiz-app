@@ -1,184 +1,99 @@
 
 const ques = [
     {
-        question: "What is JavaScript?",
-        answers: [
-            "A markup language",
-            "A scripting language",
-            "A programming language",
-            "A database query language"
-        ],
-        correctAnswer: "A programming language"
+        question: "Which video game is known for its block-building sandbox gameplay?",
+        answers: ["Minecraft", "Fortnite", "Call of Duty", "The Legend of Zelda"],
+        correctAnswer: "Minecraft"
     },
     {
-        question: "What does 'HTML' stand for?",
-        answers: [
-            "Hyper Transfer Markup Language",
-            "Hyper Text Markup Language",
-            "Hyperlink and Text Markup Language",
-            "High-Level Text Markup Language"
-        ],
-        correctAnswer: "Hyper Text Markup Language"
+        question: "In the game 'Pac-Man,' what is the name of the main character?",
+        answers: ["Blinky", "Pinky", "Inky", "Pac-Man"],
+        correctAnswer: "Pac-Man"
     },
     {
-        question: "What is the purpose of CSS?",
-        answers: [
-            "To define the structure of a web page",
-            "To add interactivity to a web page",
-            "To style the appearance of a web page",
-            "To create database queries"
-        ],
-        correctAnswer: "To style the appearance of a web page"
+        question: "Which gaming console is produced by Sony?",
+        answers: ["Xbox", "Nintendo Switch", "PlayStation", "Sega Genesis"],
+        correctAnswer: "PlayStation"
     },
     {
-        question: "Which symbol is used to comment out a single line in JavaScript?",
-        answers: [
-            "//",
-            "/*",
-            "#",
-            "--"
-        ],
-        correctAnswer: "//"
+        question: "What is the main objective of 'Among Us'?",
+        answers: ["Survive and complete tasks", "Defeat the impostors", "Collect coins", "Build structures"],
+        correctAnswer: "Survive and complete tasks"
     },
     {
-        question: "What is the output of 'console.log(2 + '2')' in JavaScript?",
-        answers: [
-            "4",
-            "22",
-            "Error",
-            "undefined"
-        ],
-        correctAnswer: "22"
+        question: "Which game features a battle royale mode known as 'Warzone'?",
+        answers: ["Apex Legends", "Fortnite", "Call of Duty: Modern Warfare", "PlayerUnknown's Battlegrounds"],
+        correctAnswer: "Call of Duty: Modern Warfare"
     },
     {
-        question: "What does 'DOM' stand for in web development?",
-        answers: [
-            "Document Object Model",
-            "Data Object Model",
-            "Dynamic Object Model",
-            "Document Oriented Model"
-        ],
-        correctAnswer: "Document Object Model"
+        question: "What genre of video games does 'The Elder Scrolls V: Skyrim' belong to?",
+        answers: ["Role-playing game (RPG)", "First-person shooter (FPS)", "Platformer", "Simulation"],
+        correctAnswer: "Role-playing game (RPG)"
     },
     {
-        question: "What is the purpose of 'localStorage' in JavaScript?",
-        answers: [
-            "To store session data on the server",
-            "To store data on the client-side",
-            "To create dynamic HTML elements",
-            "To send HTTP requests"
-        ],
-        correctAnswer: "To store data on the client-side"
+        question: "In 'The Legend of Zelda' series, what is the name of the main character?",
+        answers: ["Link", "Zelda", "Ganondorf", "Mario"],
+        correctAnswer: "Link"
     },
     {
-        question: "Which operator is used for strict equality in JavaScript?",
-        answers: [
-            "==",
-            "===",
-            "!=",
-            "!=="
-        ],
-        correctAnswer: "==="
+        question: "Which popular game involves a battle royale on an island called 'Erangel'?",
+        answers: ["Fortnite", "PlayerUnknown's Battlegrounds (PUBG)", "Apex Legends", "Call of Duty: Warzone"],
+        correctAnswer: "PlayerUnknown's Battlegrounds (PUBG)"
     },
     {
-        question: "What does 'AJAX' stand for in web development?",
-        answers: [
-            "Asynchronous JavaScript and XML",
-            "Advanced JavaScript and XHTML",
-            "Automated JavaScript and XML",
-            "All JavaScript and XML"
-        ],
-        correctAnswer: "Asynchronous JavaScript and XML"
+        question: "What is the name of the main character in 'Super Mario Bros.'?",
+        answers: ["Bowser", "Luigi", "Princess Peach", "Mario"],
+        correctAnswer: "Mario"
     },
     {
-        question: "Which JavaScript function is used to schedule a function to be called in the future?",
-        answers: [
-            "setTimeout()",
-            "setInterval()",
-            "setImmediate()",
-            "sleep()"
-        ],
-        correctAnswer: "setTimeout()"
+        question: "Which game franchise features the conflict between the Covenant and the UNSC?",
+        answers: ["Halo", "Call of Duty", "Destiny", "Gears of War"],
+        correctAnswer: "Halo"
     },
     {
-        question: "What is the purpose of 'npm' in JavaScript development?",
-        answers: [
-            "To create web pages",
-            "To run JavaScript code in the browser",
-            "To manage and install JavaScript packages",
-            "To format and style web pages"
-        ],
-        correctAnswer: "To manage and install JavaScript packages"
+        question: "In 'Fortnite,' what is the term used for the enclosing storm that forces players closer together?",
+        answers: ["Blizzard", "The Circle", "The Storm", "The Wall"],
+        correctAnswer: "The Storm"
     },
     {
-        question: "Which CSS property is used to change the color of text?",
-        answers: [
-            "font-family",
-            "text-align",
-            "color",
-            "background-color"
-        ],
-        correctAnswer: "color"
+        question: "What is the objective of 'Rocket League'?",
+        answers: ["Score goals with rocket-powered cars", "Survive on an island", "Solve puzzles", "Race in high-speed cars"],
+        correctAnswer: "Score goals with rocket-powered cars"
     },
     {
-        question: "In JavaScript, what is an 'array'?",
-        answers: [
-            "A data type for storing multiple values",
-            "A method for iterating over objects",
-            "A way to define a function",
-            "A conditional statement"
-        ],
-        correctAnswer: "A data type for storing multiple values"
+        question: "Which game features a plumber who explores a fantasy world to rescue Princess Peach?",
+        answers: ["Super Mario Odyssey", "The Legend of Zelda: Breath of the Wild", "Minecraft", "Overwatch"],
+        correctAnswer: "Super Mario Odyssey"
     },
     {
-        question: "What is the purpose of 'React' in web development?",
-        answers: [
-            "To create interactive web pages",
-            "To store data on the server",
-            "To make database queries",
-            "To format text in web pages"
-        ],
-        correctAnswer: "To create interactive web pages"
+        question: "What is the name of the popular gaming platform that allows players to create and share their own games?",
+        answers: ["Steam", "Epic Games Store", "Xbox Game Pass", "Roblox"],
+        correctAnswer: "Roblox"
     },
     {
-        question: "What is the latest version of ECMAScript (ES) as of 2021?",
-        answers: [
-            "ES5",
-            "ES6",
-            "ES7",
-            "ES2020"
-        ],
-        correctAnswer: "ES2020"
+        question: "Which game is known for its battle royale mode called 'Blackout'?",
+        answers: ["Fortnite", "Call of Duty: Black Ops 4", "Apex Legends", "PlayerUnknown's Battlegrounds"],
+        correctAnswer: "Call of Duty: Black Ops 4"
     },
     {
-        question: "What is the purpose of 'Redux' in a React.js application?",
-        answers: [
-            "To style web pages",
-            "To manage component state",
-            "To create dynamic HTML elements",
-            "To make API requests"
-        ],
-        correctAnswer: "To manage component state"
+        question: "What is the primary goal in 'The Sims' series of games?",
+        answers: ["Build and manage a virtual life", "Conquer enemy territories", "Solve mysteries", "Race in sports cars"],
+        correctAnswer: "Build and manage a virtual life"
     },
     {
-        question: "Which operator is used for exponentiation in JavaScript?",
-        answers: [
-            "^",
-            "**",
-            "*",
-            "^^"
-        ],
-        correctAnswer: "**"
+        question: "Which game features a blocky world where players can build and survive?",
+        answers: ["Terraria", "Roblox", "Minecraft", "Fortnite"],
+        correctAnswer: "Minecraft"
     },
     {
-        question: "What is the purpose of 'addEventListener' in JavaScript?",
-        answers: [
-            "To add comments to code",
-            "To handle events like clicks and keypresses",
-            "To create variables",
-            "To change the font size of text"
-        ],
-        correctAnswer: "To handle events like clicks and keypresses"
+        question: "What is the name of the popular game where players solve puzzles by cutting through paper?",
+        answers: ["Candy Crush Saga", "Paper Mario", "Cut the Rope", "Tetris"],
+        correctAnswer: "Cut the Rope"
+    },
+    {
+        question: "In 'Overwatch,' what is the role of the hero 'Reinhardt'?",
+        answers: ["Tank", "Healer", "DPS (Damage per second)", "Support"],
+        correctAnswer: "Tank"
     }
 ];
 
@@ -200,6 +115,31 @@ const timerText = document.getElementById('timer');
 const restartButton = document.getElementById('restart');
 const outoff=document.getElementById('outoff')
 const timerdiv=document.querySelector('.timer')
+const startQuizButton = document.getElementById('startQuiz');
+const questionContainer = document.getElementById('question-container');
+const btns = document.getElementById('btns');
+const welcomediv=document.getElementById('start')
+const quizContainer=document.querySelector('.quiz-container')
+
+quizContainer.style.display='none'
+// btns.style.display='none'
+// title.style.display='none'
+// timerdiv.style.display='none'
+// outoff.style.display='none'
+
+function startQuiz() {
+  welcomediv.style.display = 'none';
+  quizContainer.style.display='block'
+  questionmaker()
+  loadQuestion();
+  startTimer(20);
+  console.log('Started')
+}
+
+startQuizButton.addEventListener('click', ()=>{
+    startQuiz()
+});
+
 
 function questionmaker(){
 
@@ -210,7 +150,7 @@ function questionmaker(){
     }
 }
 
-questionmaker()
+// questionmaker()
 
 function loadQuestion() {
 
@@ -335,29 +275,30 @@ nextButton.addEventListener('click', () => {
 
 
 function restartQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    feedbackText.textContent = '';
-    scoreText.textContent = '';
-    timerText.textContent = '';
-    submitButton.style.display = 'block';
-    nextButton.style.display = 'none';
-    restartButton.style.display = 'none';
-    optionsContainer.style.display='block'
-    outoff.style.display='block'
-    timerdiv.style.display='block'
-    questions=[];
-    questionmaker()
-    loadQuestion();
-    startTimer(20);
+  currentQuestionIndex = 0;
+  score = 0;
+  feedbackText.textContent = '';
+  scoreText.textContent = '';
+  timerText.textContent = '';
+  submitButton.style.display = 'block';
+  nextButton.style.display = 'none';
+  restartButton.style.display = 'none';
+  optionsContainer.style.display = 'block';
+  outoff.style.display = 'block';
+  timerdiv.style.display = 'block';
+  questions = [];
+  questionmaker();
+  loadQuestion();
+  startTimer(20);
+  startQuizButton.style.display = 'none';
 }
 
 restartButton.addEventListener('click', () => {
     restartQuiz();
 });
 
-loadQuestion();
-startTimer(20);
+// loadQuestion();
+// startTimer(20);
 
 
 

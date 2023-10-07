@@ -7,14 +7,74 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    display: block;
+}
+#logo{
+    display: flex;
+    height: 50px;
+    /* border: 1px solid red; */
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+#logo>h3{
+    font-size: 22px;
+    color: white;
+}
+#start b{
+    font-size: 60px;
+    color: white;
+}
+#first-half{
+    position: absolute;
+    top: 185px;
+    left: 100px;
 }
 
+#startQuiz {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ff5722; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  #startQuiz:hover {
+    background-color: #ff4500; 
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  #startQuiz:active {
+    background-color: #d84315; 
+    transform: scale(0.95); 
+  }
+  
+#second-half{
+    position: absolute;
+    bottom: 50px;
+    right: 120px;
+}
 .quiz-container {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #question-container{
@@ -34,6 +94,14 @@ body {
     border-radius: 5px;
     width: 40%;
 }
+#start{
+    text-align: center;
+    /* margin-top: 40px; */
+    background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/05/Gaming-Logo-Wallpapers-Free-Download.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .optiondiv:hover{
     border-color: #ccc;
@@ -44,13 +112,13 @@ body {
     border-radius: 10px;
 }
 
-h1 {
+ .quiz-container h1 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-h2 {
+.quiz-container h2 {
     font-size: 20px;
 }
 #btns{
